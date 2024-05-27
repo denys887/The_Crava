@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>The Krava</title>
+	<link rel="icon" type="images/x-icon"
+		href="https://icons.iconarchive.com/icons/kristina-lim/st-patricks-day/128/metal-eat-icon.png" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="The Venue template project">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
+	<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+	<link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+	<link href="plugins/jquery-datepicker/jquery-ui.css" rel="stylesheet" type="text/css">
+	<link href="plugins/jquery-timepicker/jquery.timepicker.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+</head>
+
+<body>
+
+	<div class="super_container">
+
+		<!-- Header -->
+
+		<header class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_content d-flex flex-row align-items-center justify-content-start">
+							<div class="logo">
+								<a href="#">
+									<div> &nbsp;&nbsp;&nbsp;&nbsp;The Krava</div>
+									<div>restaurant-shop</div>
+								</a>
+							</div>
+							<nav class="main_nav">
+								<ul class="d-flex flex-row align-items-center justify-content-start">
+									<li><a href="index.html">Головна</a></li>
+									<li><a href="about.html">Про нас</a></li>
+									<li><a href="menu.html">Меню</a></li>
+									<li><a href="blog.html">Блог</a></li>
+									<li><a href="contact.html">Контакти</a></li>
+								</ul>
+							</nav>
+
+							<div class="reservations_phone ml-auto">Зателефонувати: +380 67 515 5136</div>
+							<div class="search-container">
+								<input type="text" class="search-input" id="searchInput">
+								<div class="search-button" onclick="scrollToElement('themenu_row')">Пошук</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- Hamburger -->
+
+		<div class="hamburger_bar trans_400 d-flex flex-row align-items-center justify-content-start">
+			<div class="hamburger">
+				<div class="menu_toggle d-flex flex-row align-items-center justify-content-start">
+					<span>Меню</span>
+					<div class="hamburger_container">
+						<div class="menu_hamburger">
+							<div class="line_1 hamburger_lines" style="transform: matrix(1, 0, 0, 1, 0, 0);"></div>
+							<div class="line_2 hamburger_lines" style="visibility: inherit; opacity: 1;"></div>
+							<div class="line_3 hamburger_lines" style="transform: matrix(1, 0, 0, 1, 0, 0);"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Menu -->
+
+		<div class="menu trans_800">
+			<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+				<ul>
+					<li><a href="index.html">Головна</a></li>
+					<li><a href="about.html">Про нас</a></li>
+					<li><a href="menu.html">Меню</a></li>
+					<li><a href="blog.html">Блог</a></li>
+					<li><a href="contact.html">Контакти</a></li>
+				</ul>
+			</div>
+			<div class="menu_reservations_phone ml-auto">Зателефонувати: +380 67 515 5136</div>
+		</div>
+
+		<!-- Home -->
+
+		<div class="home">
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/home.jpg"
+				data-speed="0.8"></div>
+			<div class="home_container">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="home_content text-center">
+								<div class="home_subtitle page_subtitle">Тут наповнюють їжу сенсом,</div>,
+								<div class="home_title">
+									<h1>
+										простір-мистецтвом,гостей-натхненням</h1>
+								</div>
+								<div class="home_text ml-auto mr-auto">
+									<p>Апетитні сніданки, чудові світанки, вишукані обіди. Насолоджуйтеся
+										гастрономічними шедеврами та фантастичною панорамою прямо зараз</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="scroll_icon"></div>
+		</div>
+
+		<!-- Intro -->
+
+		<div class="intro">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="intro_content">
+							<div class="intro_subtitle page_subtitle">Спробуй для себе щось нове</div>
+							<div class="intro_title">
+								<h2>Ресторан «The Krava»</h2>
+							</div>
+							<div class="intro_text">
+								<p>У меню ресторану представлені авторські страви в стилі ф'южн, які об'єднують сучасну
+									європейську вишуканість, переосмислені національні традиції та елементи паназійської
+									кухні.</p>
+
+								<p>Крім національних бестселерів, таких як легендарний борщ та котлета по-київськи, ми
+									пропонуємо світову класику – улюблені страви і мандрівників, і місцевих жителів.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-4 col-md-6 intro_col">
+								<div class="intro_image"><img src="images/intro_1.jpg"
+										alt="https://unsplash.com/@quanle2819"></div>
+							</div>
+							<div class="col-xl-4 col-md-6 intro_col">
+								<div class="intro_image"><img src="images/intro_2.jpg"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Video -->
+
+		<div class="video_section">
+			<div class="background_image" style="background-image:url(images/video.jpg)"></div>
+			<div class="video_section_content d-flex flex-column align-items-center justify-content-center text-center">
+				<div class="video_section_title">Їжа для душі</div>
+				<div class="video_section_icon"><a class="vimeo video_button" href="https://youtu.be/0neLH0HjK-o"><i
+							class="fa fa-play" aria-hidden="true"></i></a></div>
+			</div>
+		</div>
+
+		<!-- Signature Dish -->
+
+		<div class="sig">
+			<div class="sig_content_container">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-7">
+							<div class="sig_content">
+								<div class="sig_subtitle page_subtitle">Something new</div>
+								<div class="sig_title">
+									<h1>Наша фірмова страва</h1>
+								</div>
+								<div class="rating_r sig_rating rating_r_5"><i></i><i></i><i></i><i></i><i></i></div>
+								<div class="sig_name_container d-flex flex-row align-items-start justify-content-start">
+									<div class="sig_name">Щупалець восьминога</div>
+									<div class="sig_price ml-auto">526грн</div>
+								</div>
+								<div class="sig_content_list">
+									<ul class="d-flex flex-row align-items-center justify-content-start">
+										<li>картопля</li>
+										<li>томат чері</li>
+										<li>цукіні</li>
+										<li>анчан-гель</li>
+										<li>соус винно-лимонний</li>
+									</ul>
+								</div>
+								<div class="button sig_button trans_200"><a href="#">Зв'язатися</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="sig_image_container">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-7 offset-lg-5">
+							<div class="sig_image">
+								<div class="background_image" style="background-image:url(images/sig.jpg)"></div>
+								<img src="images/sig.jpg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- The Menu -->
+
+		<div class="themenu">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="themenu_title_bar_container">
+							<div class="themenu_stars text-center page_subtitle">5 Stars</div>
+							<div class="themenu_rating text-center">
+								<div class="rating_r rating_r_5"><i></i><i></i><i></i><i></i><i></i></div>
+							</div>
+							<div class="themenu_title_bar d-flex flex-column align-items-center justify-content-center">
+								<div class="themenu_title">Меню</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row themenu_row" id="themenu_row">
+
+					<!-- Starters -->
+					<div class="col-lg-4 themenu_column">
+						<div class="themenu_col">
+							<div class="themenu_col_title">Смаки світу</div>
+							<div class="dish_list">
+							</div>
+						</div>
+					</div>
+
+					<!-- Main -->
+					<div class="col-lg-4 themenu_column">
+						<div class="themenu_col">
+							<div class="themenu_col_title">Світова класика</div>
+							<div class="dish_list">
+							</div>
+						</div>
+					</div>
+
+					<!-- Deserts -->
+					<div class="col-lg-4 themenu_column">
+						<div class="themenu_col">
+							<div class="themenu_col_title">Десерти</div>
+							<div class="dish_list">
+							</div>
+						</div>
+					</div>
+					<div class="res_button sort-button">Сортування за ціною</div>
+				</div>
+			</div>
+			
+		</div>
+		<!-- Reservations -->
+
+		<div class="reservations text-center">
+			<div class="parallax_background parallax-window" data-parallax="scroll"
+				data-image-src="images/reservations.jpg" data-speed="0.8"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="reservations_content d-flex flex-column align-items-center justify-content-center">
+							<div class="res_stars page_subtitle">5 Stars</div>
+							<div class="res_title">Забронювати столик</div>
+							<div class="res_form_container">
+								<form action="#" id="res_form" class="res_form">
+									<div
+										class="d-flex flex-sm-row flex-column align-items-center justify-content-start">
+										<input type="text" id="datepicker" class="res_input" required="required">
+										<input type="text" class="res_input timepicker" required="required">
+										<select class="res_select">
+											<option disabled="" selected="">2 персони</option>
+											<option>3 персони</option>
+											<option>4 персони</option>
+											<option>5 персони</option>
+											<option>6 персони</option>
+										</select>
+									</div>
+									<button class="res_button">Забронювати</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+
+					<!-- Footer Logo -->
+					<div class="col-lg-3 footer_col">
+						<div class="footer_logo">
+							<div class="footer_logo_title">The Krava</div>
+							<div class="footer_logo_subtitle">restaurant-shop</div>
+						</div>
+						<div class="copyright">
+
+						</div>
+					</div>
+
+					<!-- Footer About -->
+					<div class="col-lg-6 footer_col">
+						<div class="footer_about">
+							<p>Кожен візит до «The Krava» – це неповторні гастрономічні враження, якими відтепер ви
+								можете поділитися із близькими та друзями.</p>
+						</div>
+					</div>
+
+					<!-- Footer Contact -->
+					<div class="col-lg-3 footer_col">
+						<div class="footer_contact">
+							<ul>
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div>
+										<div class="footer_contact_title">Адреса:</div>
+									</div>
+									<div class="footer_contact_text">98 Келецька Вінниця 22800</div>
+								</li>
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div>
+										<div class="footer_contact_title">Телефон:</div>
+									</div>
+									<div class="footer_contact_text">+380 67 515 5136</div>
+								</li>
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div>
+										<div class="footer_contact_title">Пошта:</div>
+									</div>
+									<div class="footer_contact_text">Krava@gmail</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="styles/bootstrap-4.1.2/popper.js"></script>
+	<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+	<script src="plugins/greensock/TweenMax.min.js"></script>
+	<script src="plugins/greensock/TimelineMax.min.js"></script>
+	<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+	<script src="plugins/greensock/animation.gsap.min.js"></script>
+	<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+	<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+	<script src="plugins/easing/easing.js"></script>
+	<script src="plugins/parallax-js-master/parallax.min.js"></script>
+	<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+	<script src="plugins/jquery-datepicker/jquery-ui.js"></script>
+	<script src="plugins/jquery-timepicker/jquery.timepicker.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/search.js"></script>
+</body>
+
+</html>
